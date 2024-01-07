@@ -1,0 +1,7 @@
+<!-- res/values/attrs.xml -->
+<resources>
+    <declare-styleable name="CustomFab">
+        <attr name="backgroundColor" format="color"/>
+        <!-- Add more custom attributes as needed -->
+    </declare-styleable>
+</resources>

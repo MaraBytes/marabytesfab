@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shades of Red -->
+    <color name="redPrimary">#FF0000</color> <!-- Red -->
+    <color name="redDark">#B30000</color> <!-- Dark Red -->
+    <color name="redLight">#FF6666</color> <!-- Light Red -->
+
+    <!-- Shades of Blue -->
+    <color name="bluePrimary">#0000FF</color> <!-- Blue -->
+    <color name="blueDark">#000080</color> <!-- Dark Blue -->
+    <color name="blueLight">#6699FF</color> <!-- Light Blue -->
+    <color name="white">#FFFFFF</color> <!-- Light Blue -->
+    <color name="black">#000000</color> <!-- Light Blue -->
+    <!-- Shades of Green -->
+    <color name="greenPrimary">#008000</color> <!-- Green -->
+    <color name="greenDark">#004d00</color> <!-- Dark Green -->
+    <color name="greenLight">#66ff66</color> <!-- Light Green -->
+</resources>
