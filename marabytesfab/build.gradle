@@ -42,20 +42,14 @@ dependencies {
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            groupId = 'com.example.marabytesfab'
-            artifactId = 'your-library-name'
-            version = '1.0.0'
+
 
         }
     }
 
-        repositories {
-            maven {
-                url = uri("https://maven.pkg.github.com/username/repo")
-                credentials {
-                    username = project.findProperty("gpr.user") ?: System.getenv("USERNAME_GITHUB") ?: System.getenv("USERNAME_GITHUB_PACKAGE")
-                    password = project.findProperty("gpr.token") ?: System.getenv("TOKEN_GITHUB") ?: System.getenv("TOKEN_GITHUB_PACKAGE")
-            }
+    repositories {
+        maven {
+          
         }
     }
 }
